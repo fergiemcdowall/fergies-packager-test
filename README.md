@@ -1,5 +1,5 @@
 # fergies-packager-test
-A repo for testing packaging strategies
+A repo for testing packaging strategies for modules including `level`
 
 |platform|module type|link|
 |-|-|-|
