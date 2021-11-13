@@ -1,9 +1,12 @@
 # fergies-packager-test
 A repo for testing packaging strategies for modules including `level`
 
-|platform|module type|link|
-|-|-|-|
-|web|umd||
-|web|esm||
-|node|commonjs||
-|node|esm||
+The motivation for this package is to find a consistent way to author
+packages containing `level` that work on all platforms    
+
+Targeted platforms:
+  - React
+  - Codepen
+  - Node
+  - <script> (umd)
+  - <script type="module"> (esm, invoked with "import")
