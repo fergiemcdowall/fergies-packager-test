@@ -1,9 +1,9 @@
 {
   "name": "fergies-packager-test",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A repo for testing packaging strategies for modules including `level`",
   "main": "src/node.js",
-  "browser": "src/browser.js",
+  "browser": "src/node.js",
   "type": "module",
   "scripts": {
     "build": "node webpack-bundler.js",
